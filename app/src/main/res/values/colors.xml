@@ -3,4 +3,5 @@
     <color name="colorPrimary">#F83F3D</color>
     <color name="colorPrimaryDark">#DB2831</color>
     <color name="colorAccent">#FFBF44</color>
+    <color name="fb_blue">#0679EA</color>
 </resources>

@@ -57,6 +57,8 @@
             android:layout_marginStart="@dimen/margin_medium"
             android:layout_marginEnd="@dimen/margin_medium"
             android:layout_marginBottom="@dimen/margin_medium"
+            app:efab_firstFabOptionMarginPx="100"
+            app:efab_successiveFabOptionMarginPx="100"
             app:efab_icon="@drawable/ic_add_white_32dp"
             app:efab_size="custom"
             app:fabCustomSize="64dp"
@@ -67,12 +69,17 @@
             android:id="@+id/fb_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:fab_color="@color/fb_blue"
+            app:fab_icon="@mipmap/f_logo_rgb_blue"
             app:label_text="Zaloguj przez Facebooka" />
 
         <com.nambimobile.widgets.efab.FabOption
             android:id="@+id/recipe_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            app:fabCustomSize="32dp"
+            app:fab_color="@color/colorPrimary"
+            app:fab_icon="@drawable/ic_molecule_white_24dp"
             app:label_text="Get the recipe" />
 
     </com.nambimobile.widgets.efab.ExpandableFabLayout>
