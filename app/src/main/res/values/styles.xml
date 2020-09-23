@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Widget.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Widget.App.ShapeableImageView" parent="Widget.MaterialComponents.ShapeableImageView">
+        <item name="shapeAppearanceOverlay">@style/Widget.App.CornerSize50Percent</item>
+    </style>
+
 </resources>
