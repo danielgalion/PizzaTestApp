@@ -4,4 +4,8 @@
     <color name="colorPrimaryDark">#DB2831</color>
     <color name="colorAccent">#FFBF44</color>
     <color name="fb_blue">#0679EA</color>
+
+    <color name="fab_label_text">#111</color>
+    <color name="title_text">#111</color>
+    <color name="desc_text">#777</color>
 </resources>

@@ -16,4 +16,15 @@
         <item name="shapeAppearanceOverlay">@style/Widget.App.CornerSize50Percent</item>
     </style>
 
+    <style name="TitleTextView" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/title_text</item>
+    </style>
+
+    <style name="DescTextView" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/desc_text</item>
+    </style>
+
 </resources>
