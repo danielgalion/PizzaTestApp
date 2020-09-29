@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
         <activity
-            android:name=".MainActivity"
+            android:name=".uicontrollers.MainActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RecipeActivity"
+            android:name=".uicontrollers.RecipeActivity"
             android:screenOrientation="portrait" />
     </application>
 </manifest>

@@ -1,8 +1,9 @@
-package com.github.danielgalion.pizzatestapp
+package com.github.danielgalion.pizzatestapp.uicontrollers
 
 import android.os.Bundle
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import com.github.danielgalion.pizzatestapp.R
 
 class RecipeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

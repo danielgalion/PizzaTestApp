@@ -1,10 +1,11 @@
-package com.github.danielgalion.pizzatestapp
+package com.github.danielgalion.pizzatestapp.uicontrollers
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.github.danielgalion.pizzatestapp.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
