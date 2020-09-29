@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.squareup.picasso.Picasso
+import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showLogo() {
-        Picasso.get().load("https://moodup.team/test/pizza1.jpg").into(logo_iv)
+        logo_iv.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.pizza1))
     }
 
     fun onRecipeFabClick(view: View) {
