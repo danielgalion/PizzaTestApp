@@ -11,8 +11,8 @@ import com.github.danielgalion.pizzatestapp.uicontrollers.common.ItemClickListen
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.row_recipe_photos.view.*
 
-class RecipePhotosAdapter(private val context: Context, private val photoLinks: List<String>)
-    : RecyclerView.Adapter<ClickableViewHolder>() {
+class RecipePhotosAdapter(private val context: Context, private val photoLinks: List<String>) :
+    RecyclerView.Adapter<ClickableViewHolder>() {
 
     companion object {
         private const val TAG = "RecipePhotosAdapter"
@@ -26,7 +26,10 @@ class RecipePhotosAdapter(private val context: Context, private val photoLinks: 
     }
 
     override fun onBindViewHolder(holder: ClickableViewHolder, position: Int) {
-        Picasso.get().load(photoLinks[position]).into(holder.view.recipe_photo_iv)
+        Picasso.get()
+            .load(photoLinks[position])
+            .placeholder(R.drawable.pizza1)
+            .into(holder.view.recipe_photo_iv)
 
         onClick(holder)
     }
