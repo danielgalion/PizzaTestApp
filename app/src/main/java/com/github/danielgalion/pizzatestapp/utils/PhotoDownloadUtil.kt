@@ -36,7 +36,7 @@ private fun trySavePhoto(bitmap: Bitmap) {
     outputStream.close()
 }
 
-private fun makeToast(text: String) {
+fun makeToast(text: String) {
     Toast.makeText(MainApplication.getInstance()?.applicationContext, text, Toast.LENGTH_LONG)
         .show()
 }

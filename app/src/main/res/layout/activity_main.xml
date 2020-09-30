@@ -69,6 +69,7 @@
             android:id="@+id/fb_fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:onClick="onFbFabClick"
             app:fab_color="@color/fb_blue"
             app:fab_icon="@mipmap/f_logo_rgb_blue"
             app:label_backgroundColor="@android:color/white"
