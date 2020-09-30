@@ -8,4 +8,5 @@
     <color name="fab_label_text">#111</color>
     <color name="title_text">#111</color>
     <color name="desc_text">#777</color>
+    <color name="name_background">#E1E1E1</color>
 </resources>

@@ -6,4 +6,8 @@
     <string name="preparing">Preparing:</string>
     <string name="images">Images:</string>
     <string name="recipe_step">%1$d. %2$s</string>
+    <string name="fb_name">Zalogowano jako %1$s</string>
+
+    <string name="facebook_app_id">734926687118913</string>
+    <string name="fb_login_protocol_scheme">fb734926687118913</string>
 </resources>
