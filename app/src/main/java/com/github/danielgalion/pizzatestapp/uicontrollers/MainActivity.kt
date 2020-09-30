@@ -1,17 +1,15 @@
 package com.github.danielgalion.pizzatestapp.uicontrollers
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.github.danielgalion.pizzatestapp.R
-import com.github.danielgalion.pizzatestapp.network.FetcherViewModel
+import com.github.danielgalion.pizzatestapp.uicontrollers.recipe.RecipeActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    private val fetcherViewModel: FetcherViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -25,8 +23,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onRecipeFabClick(view: View) {
-//        startActivity(Intent(this, RecipeActivity::class.java))
-
-        fetcherViewModel.fetchRecipe()
+        startActivity(Intent(this, RecipeActivity::class.java))
     }
 }

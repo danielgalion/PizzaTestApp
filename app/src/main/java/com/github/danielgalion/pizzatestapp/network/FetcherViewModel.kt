@@ -32,7 +32,6 @@ class FetcherViewModel : ViewModel() {
             val gson = GsonBuilder().create()
 
             recipe.value = gson.fromJson(it, Recipe::class.java)
-            Log.d(TAG, recipe.value.toString())
         }, {
 
         })
