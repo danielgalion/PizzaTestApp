@@ -1,4 +1,4 @@
-package com.github.danielgalion.pizzatestapp.uicontrollers
+package com.github.danielgalion.pizzatestapp.uicontrollers.recipe
 
 import android.content.Context
 import android.view.LayoutInflater

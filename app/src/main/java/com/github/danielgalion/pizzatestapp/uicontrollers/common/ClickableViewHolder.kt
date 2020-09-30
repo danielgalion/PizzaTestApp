@@ -1,4 +1,4 @@
-package com.github.danielgalion.pizzatestapp.utils
+package com.github.danielgalion.pizzatestapp.uicontrollers.common
 
 import android.util.Log
 import android.view.View

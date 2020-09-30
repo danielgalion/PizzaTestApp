@@ -1,4 +1,4 @@
-package com.github.danielgalion.pizzatestapp.uicontrollers
+package com.github.danielgalion.pizzatestapp.uicontrollers.recipe
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,8 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.github.danielgalion.pizzatestapp.R
-import com.github.danielgalion.pizzatestapp.utils.ClickableViewHolder
-import com.github.danielgalion.pizzatestapp.utils.ItemClickListener
+import com.github.danielgalion.pizzatestapp.uicontrollers.common.ClickableViewHolder
+import com.github.danielgalion.pizzatestapp.uicontrollers.common.ItemClickListener
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.row_recipe_photos.view.*
 
