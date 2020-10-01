@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/margin_small"
-            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
             android:layout_marginEnd="@dimen/margin_small"
             android:layout_marginBottom="@dimen/margin_medium"
             android:nestedScrollingEnabled="false"
@@ -23,47 +23,47 @@
                 style="@style/TitleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_very_small"
+                android:layout_marginBottom="@dimen/margin_small"
                 android:text="@string/pizza" />
 
             <TextView
                 android:id="@+id/pizza_desc_tv"
-                style="@style/DescSmallTextView"
+                style="@style/DescTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_very_small"
-                android:layout_marginEnd="@dimen/margin_very_small"
-                android:layout_marginBottom="@dimen/margin_very_small" />
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_small" />
 
             <TextView
                 style="@style/TitleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_very_small"
+                android:layout_marginBottom="@dimen/margin_small"
                 android:text="@string/ingredients" />
 
             <TextView
                 android:id="@+id/ingredients_desc_tv"
-                style="@style/DescSmallTextView"
+                style="@style/DescTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_very_small"
-                android:layout_marginEnd="@dimen/margin_very_small"
-                android:layout_marginBottom="@dimen/margin_very_small" />
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_small" />
 
             <TextView
                 style="@style/TitleTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/margin_very_small"
+                android:layout_marginBottom="@dimen/margin_small"
                 android:text="@string/preparing" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_very_small"
-                android:layout_marginEnd="@dimen/margin_very_small"
-                android:layout_marginBottom="@dimen/margin_very_small">
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_small">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/preparing_desc_rv"
@@ -82,9 +82,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/margin_very_small"
-                android:layout_marginEnd="@dimen/margin_very_small"
-                android:layout_marginBottom="@dimen/margin_large">
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_huge">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/images_rv"
@@ -99,13 +99,13 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/fb_info_bottom_layout"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/margin_big"
+        android:layout_height="@dimen/margin_large"
         android:background="@color/name_background"
         app:layout_constraintBottom_toBottomOf="parent">
 
         <TextView
             android:id="@+id/fb_name_tv"
-            style="@style/DescSmallTextView"
+            style="@style/DescTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"

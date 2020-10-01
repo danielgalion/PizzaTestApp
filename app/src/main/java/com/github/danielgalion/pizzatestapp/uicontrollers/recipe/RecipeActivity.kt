@@ -67,7 +67,10 @@ class RecipeActivity : AppCompatActivity() {
     }
 
     private fun showImages(recipe: Recipe) {
-        images_rv.layoutManager = GridLayoutManager(this, 2)
+        val widthDp = resources.displayMetrics.widthPixels / resources.displayMetrics.density
+
+        if (widthDp > 320f) images_rv.layoutManager = GridLayoutManager(this, 2)
+        else images_rv.layoutManager = LinearLayoutManager(this)
         images_rv.adapter = RecipePhotosAdapter(this, recipe.imgs)
         ViewCompat.setNestedScrollingEnabled(images_rv, false)
     }

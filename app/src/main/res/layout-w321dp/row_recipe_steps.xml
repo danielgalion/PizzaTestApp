@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="@dimen/margin_very_small"
+    android:layout_marginBottom="@dimen/margin_small"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/recipe_step_tv"
-        style="@style/DescSmallTextView"
+        style="@style/DescTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
