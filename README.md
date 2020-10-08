@@ -23,3 +23,5 @@ I've downloaded image of pizza for a main screen to not depend it on an internet
 I've took care about Single Principle Responsibility and DRY rules. I've made my best on writing short and concise methods.
 
 Application was tested on Android Emulator with API 29.
+
+Project is based on a task sent by Mood Up Team from Poznań, Poland. 
